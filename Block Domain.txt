@@ -4,4 +4,5 @@ googletagmanager.com
 google-analytics.com
 hm.baidu.com
 adsmind.ugdtimg.com
+doubleclick.net
 pgdt.ugdtimg.com
