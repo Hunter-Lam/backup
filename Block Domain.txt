@@ -1,8 +1,11 @@
-mediadelivery.net
-googlesyndication.com
-googletagmanager.com
-google-analytics.com
-hm.baidu.com
-adsmind.ugdtimg.com
-doubleclick.net
-pgdt.ugdtimg.com
+127.0.0.1	mediadelivery.net
+127.0.0.1	googlesyndication.com
+127.0.0.1	pagead2.googlesyndication.com
+127.0.0.1	tpc.googlesyndication.com
+127.0.0.1	doubleclick.net
+127.0.0.1	cm.g.doubleclick.net
+127.0.0.1	www.googletagmanager.com
+127.0.0.1	www.google-analytics.com
+127.0.0.1	hm.baidu.com
+127.0.0.1	adsmind.ugdtimg.com
+127.0.0.1	pgdt.ugdtimg.com
