@@ -93,4 +93,5 @@ m.threads.net,
 static.threads.net,
 i.threads.net,
 api.threads.net,
-graph.threads.net
+graph.threads.net,
+clashverge.dev
