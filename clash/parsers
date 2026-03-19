@@ -1,0 +1,22 @@
+parsers: # array
+  - reg: .* # Matches all subscription URLs
+    code: |
+      module.exports.parse = (raw, { yaml }) => {
+        const obj = yaml.parse(raw)
+        if (obj['rule-providers']) {
+          Object.keys(obj['rule-providers']).forEach(key => {
+            const provider = obj['rule-providers'][key]
+            if (provider.type === 'http') {
+              provider.type = 'file'
+              // Set a default local path if one isn't already there
+              if (!provider.path) {
+                provider.path = `./ruleset/${key}.yaml`
+              }
+              // Clean up the URL since it's now a local file type
+              delete provider.url
+              delete provider.interval
+            }
+          })
+        }
+        return yaml.stringify(obj)
+      }
