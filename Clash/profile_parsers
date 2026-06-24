@@ -1,0 +1,90 @@
+parsers:
+  - reg: .*
+    code: |
+      module.exports.parse = (raw, { yaml }) => {
+        const obj = yaml.parse(raw)
+
+        // 將 HTTP Rule Provider 轉為本地 File Provider
+        if (obj['rule-providers']) {
+          Object.keys(obj['rule-providers']).forEach(key => {
+            const provider = obj['rule-providers'][key]
+
+            if (provider.type === 'http') {
+              provider.type = 'file'
+
+              if (!provider.path) {
+                provider.path = `./ruleset/${key}.yaml`
+              }
+
+              delete provider.url
+              delete provider.interval
+            }
+          })
+        }
+
+        // 新增「📺 電視直播」策略組
+        if (!obj['proxy-groups']) {
+          obj['proxy-groups'] = []
+        }
+
+        const tvGroupName = '📺 電視直播'
+
+        const tvGroupExists = obj['proxy-groups'].some(
+          group => group.name === tvGroupName
+        )
+
+        if (!tvGroupExists) {
+          const tvGroup = {
+            name: '📺 電視直播',
+            type: 'select',
+            proxies: [
+              '🎯 全球直连',
+              '🚀 节点选择',
+              '♻️ 自动选择'
+            ]
+          }
+              
+          const groups = obj['proxy-groups']
+
+          if (groups.length <= 1) {
+            groups.push(tvGroup)
+          } else {
+            groups.splice(groups.length - 1, 0, tvGroup)
+          }
+        }
+
+        // 自定義規則
+        const customRules = [
+          // Ymvid 粵漫之家
+          'DOMAIN-SUFFIX,ymvid.com,DIRECT',
+          'DOMAIN-SUFFIX,video.acvid.top,DIRECT',
+
+          // Longman Dictionary
+          'DOMAIN-SUFFIX,ldoceonline.com,DIRECT',
+
+          // yudou
+          'DOMAIN-SUFFIX,yudou789.top,DIRECT',
+          'DOMAIN-SUFFIX,yudou226.top,DIRECT',
+
+          // Live
+          'DOMAIN-SUFFIX,jdshipin.com,📺 電視直播',
+          'DOMAIN-SUFFIX,163189.xyz,📺 電視直播',
+          'DOMAIN-SUFFIX,mytv.cdn.loc.cc,📺 電視直播',
+          'DOMAIN-SUFFIX,iptv.4666888.xyz,📺 電視直播'
+        ]
+
+        if (!obj.rules) {
+          obj.rules = []
+        }
+
+        // 去重後插入到規則最前面
+        const existingRules = new Set(obj.rules)
+
+        for (let i = customRules.length - 1; i >= 0; i--) {
+          if (!existingRules.has(customRules[i])) {
+            obj.rules.unshift(customRules[i])
+          }
+        }
+
+        return yaml.stringify(obj)
+      }
