@@ -27,14 +27,74 @@ http://o11.163189.xyz/stream/live/typd/
 http://o11.163189.xyz/stream/live/ccm/
 #EXTINF:-1,金光布袋戏
 http://o11.163189.xyz/stream/live/jgbdx/
-#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/明珠台.png" group-title="港澳代理",明珠台
-http://iptv.4666888.xyz/iptv2A.php?id=29
+
+#EXTINF:-1,astroFootball
+http://iptv.4666888.xyz/iptv2A.php?id=4
+#EXTINF:-1,博斯運動1
+http://iptv.4666888.xyz/iptv2A.php?id=6
+#EXTINF:-1,鳳凰卫视
+http://iptv.4666888.xyz/iptv2A.php?id=19
 #EXTINF:-1 tvg-id="千禧经典" tvg-name="千禧经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/千禧经典.png" group-title="港澳台频道",千禧经典
 http://iptv.4666888.xyz/iptv2A.php?id=22
+#EXTINF:-1,TVB1
+http://iptv.4666888.xyz/iptv2A.php?id=25
+#EXTINF:-1,TVBJ1
+http://iptv.4666888.xyz/iptv2A.php?id=26
+#EXTINF:-1,axstv fights
+http://iptv.4666888.xyz/iptv2A.php?id=27
+#EXTINF:-1,TVB翡翠(馬來)
+http://iptv.4666888.xyz/iptv2A.php?id=28
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/明珠台.png" group-title="港澳代理",明珠台
+http://iptv.4666888.xyz/iptv2A.php?id=29
+#EXTINF:-1,axstv fights
+http://iptv.4666888.xyz/iptv2A.php?id=30
 #EXTINF:-1 tvg-name="有线新闻" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/有线新闻.png" group-title="港澳代理",有线新闻
 http://iptv.4666888.xyz/iptv2A.php?id=31
-#EXTINF:-1 tvg-name="珠江卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/珠江卫视.png" group-title="港澳代理",珠江卫视
-http://iptv.4666888.xyz/iptv2A.php?id=19
+#EXTINF:-1,MYTV黃金翡翠
+http://iptv.4666888.xyz/iptv2A.php?id=32
+#EXTINF:-1,TVB翡翠劇集
+http://iptv.4666888.xyz/iptv2A.php?id=33
+#EXTINF:-1,黃金華劇
+http://iptv.4666888.xyz/iptv2A.php?id=34
+#EXTINF:-1,HOY77
+http://iptv.4666888.xyz/iptv2A.php?id=35
+#EXTINF:-1,axstv fights
+http://iptv.4666888.xyz/iptv2A.php?id=36
+#EXTINF:-1,華藝中文
+http://iptv.4666888.xyz/iptv2A.php?id=37
+#EXTINF:-1,緯來電影
+http://iptv.4666888.xyz/iptv2A.php?id=40
+#EXTINF:-1,澳視澳門
+http://iptv.4666888.xyz/iptv2A.php?id=41
+#EXTINF:-1,臺灣戲劇
+http://iptv.4666888.xyz/iptv2A.php?id=42
+#EXTINF:-1,TVBS新聞
+http://iptv.4666888.xyz/iptv2A.php?id=43
+#EXTINF:-1,非凡直播
+http://iptv.4666888.xyz/iptv2A.php?id=44
+#EXTINF:-1,東森洋片
+http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1,龍華电影
+http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1,民視綜藝
+http://iptv.4666888.xyz/iptv2A.php?id=46
+#EXTINF:-1,TVBS精采
+http://iptv.4666888.xyz/iptv2A.php?id=47
+#EXTINF:-1,東森电影
+http://iptv.4666888.xyz/iptv2A.php?id=48
+#EXTINF:-1,爱尔达综合
+http://iptv.4666888.xyz/iptv2A.php?id=49
+#EXTINF:-1,ROCK_Action
+http://iptv.4666888.xyz/iptv2A.php?id=50
+#EXTINF:-1,八度空间
+http://iptv.4666888.xyz/iptv2A.php?id=52
+#EXTINF:-1,中视经典
+http://iptv.4666888.xyz/iptv2A.php?id=54
+#EXTINF:-1,民视
+http://iptv.4666888.xyz/iptv2A.php?id=55
+#EXTINF:-1,龍華洋片台
+http://iptv.4666888.xyz/iptv2A.php?id=60
+
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 http://r.jdshipin.com/qrfbg
 #EXTINF:-1 tvg-name="翡翠台4K" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台4K
@@ -77,6 +137,7 @@ http://r.jdshipin.com/snhya
 http://r.jdshipin.com/n2YZI
 #EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/澳视卫星.png" group-title="港澳代理",澳视卫星
 http://r.jdshipin.com/QFhCq
+
 #EXTINF:-1 tvg-id="民视" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="港澳台频道",民视
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="台视" tvg-name="台视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视.png" group-title="港澳台频道",台视
@@ -87,6 +148,7 @@ rtmp://f13h.mine.nu/sat/tv091
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Unique1.png" group-title="港澳台频道",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
+
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 https://php.946985.filegear-sg.me/jackTV.m3u
 
@@ -100,10 +162,12 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港澳台频道",澳视澳门
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam
+
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 http://mytv.cdn.loc.cc/o12.php?id=fct
 #EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",明珠台
 http://mytv.cdn.loc.cc/o12.php?id=mzt
+
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="港澳代理",翡翠台
 http://api.kkitv.itv888.vip:8080/streams/91wc8xdtj8/index.m3u8
 #EXTINF:-1 tvg-id="千禧经典" tvg-name="千禧经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/千禧经典.png" group-title="港澳台频道",千禧经典
@@ -114,8 +178,10 @@ http://api.kkitv.itv888.vip:8080/streams/vny1wblsnch/index.m3u8
 http://api.kkitv.itv888.vip:8080/streams/wzt3qbit80m/index.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰香港台.png" group-title="港澳代理",凤凰香港
 http://api.kkitv.itv888.vip:8080/streams/mty4v56ud39/index.m3u8
+
 #EXTINF:-1 tvg-name="ASTRO AOD" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ASTROAOD.png" group-title="港澳台频道",ASTRO AOD
 https://hls.iill.top/api/BBC-Earth/index.m3u8
+
 #EXTINF:-1 tvg-id="TVB翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.cn/tv/翡翠台.png" group-title="港澳台频道",TVB翡翠台
 http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB2.png" group-title="港澳台频道",TVB明珠台
@@ -144,3 +210,8 @@ https://cdn6.163189.xyz/163189/asam
 http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-name="澳门综艺" tvg-logo="https://live.fanmingming.cn/tv/澳门综艺.png" group-title="港澳台频道",澳门综艺
 http://cdn6.163189.xyz/163189/amzy
+
+
+
+
+
