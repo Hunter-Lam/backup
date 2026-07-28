@@ -20,4 +20,5 @@ gushiwen.cn
 vcg.com
 
 IT
+time.geekbang.org
 javaguide.cn
